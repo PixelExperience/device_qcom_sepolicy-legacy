@@ -72,7 +72,6 @@ persist.rmnet.mux          u:object_r:rmnet_mux_prop:s0
 sys.usb.controller         u:object_r:sys_usb_controller_prop:s0
 sys.usb.configfs           u:object_r:sys_usb_configfs_prop:s0
 sys.usb.tethering          u:object_r:sys_usb_tethering_prop:s0
-qemu.hw.mainkeys           u:object_r:qemu_hw_mainkeys_prop:s0
 ro.dbg.coresight.cfg_file     u:object_r:coresight_prop:s0
 ctl.hbtp                   u:object_r:ctl_hbtp_prop:s0
 vendor.audio.sys.init             u:object_r:audio_prop:s0
@@ -106,7 +105,7 @@ sys.boot_mode              u:object_r:boot_mode_prop:s0
 # GPU
 ro.gpu.available_frequencies u:object_r:freq_prop:s0
 # NFC
-sys.nfc.nq.                u:object_r:nfc_nq_prop:s0
+vendor.qti.nfc.            u:object_r:nfc_nq_prop:s0
 ctl.ppd                    u:object_r:ppd_prop:s0
 qemu.gles                  u:object_r:qemu_gles_prop:s0
 # LKCore start
